@@ -1,0 +1,11 @@
+body {overflow-y: scroll; padding: 0; margin: 0; font-family: Roboto; font-size: 16px; color: #FFF; height: 2000px;}
+
+.popup-position {display: none; position: fixed; top: 400; left: 90; background-color: rgba(0,0,0,0.7); width: 525px; height: 40%;}
+#popup-wrapper {width: 500px; margin: 70px auto; text-align: left;}
+#popup-container {background-color: #FFF; padding: 20px; border-radius: 12px; }
+
+#wrapper {width: 400px; margin: 40px auto; text-align: left; }
+a{
+	text-decoration:none;
+	color: black;
+}
