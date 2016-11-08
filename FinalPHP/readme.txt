@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------
- *                      README A2
+ *                      README A3
  * Name: Brandon Gordon
  * Student ID: 0850874
  * Course: CIS2750 [F16]
@@ -18,17 +18,16 @@ Note: DO NOT include the '[' ']'.
 EXECUTE
 **************
 On the commad line type:
-[./a2 <filename>]
+[./a3 <filename>]
 filename can have the an html extension or none. 
 ***NOTE: the python file has already undergone the [chmod +x] command to become an executable.
           
 **************
 BUGS/FAILURES
 **************
-1. 4 unfreed blocks of memory occurs because of failure to free the returnStruct content wherever
-it is malloc'd.
+1. When running Valgrind, the first execution says that 'q2' does not exist. That's where you press
+CNTRL+C . When you execute valgrind immediately after the first time, valgrind will executre fully with
+no leaks.
 
-2. After the program runs, the pipe named "q1" is not removed from directory. When valgrind is executed, sometimes
-it will run through to completion, and other times (UNSURE WHY IT WORKS SOMETIMES AND NOT OTHERS, sorry), 
-it will notify that there is no "q2" file and stop before valgrind is completed (press CNTRL+C to exit valgrind at 
-this point).
+2. When the Convert is executed, the process on the web browser to execute the .c and .py may take up 
+to 20 seconds to finish executing. After that time period, it works perfectly fine. 
